@@ -68,3 +68,24 @@ body{
   border-radius: 0 0 10px 0;
 }
 
+.back{
+  height: 120px;
+  width: 35px;
+  background-color: #ea1616;
+  border: 10px solid black;
+  position: absolute;
+  left: -45px;
+  top: 65px;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+}
+.back:before{
+  content: "";
+  position: absolute;
+  height: 78px;
+  width: 26px;
+  background-color: #840931;
+  bottom: -0.5px;
+  left: -1px;
+  border-radius: 12px 0 0 8px;
+}
